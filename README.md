@@ -1,2 +1,2 @@
-# News_Articles_Classifier
+# News_Article_Classifier
 A fake vs real news classifier using machine learning
