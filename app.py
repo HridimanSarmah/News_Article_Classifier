@@ -6,7 +6,7 @@ model = pickle.load(open('news_model.pkl', 'rb'))
 vectorizer = pickle.load(open('tfidf_vectorizer.pkl', 'rb'))
 
 # Streamlit UI
-st.title("Fake News Detector")
+st.title("News Article Classifier:Fake or Real")
 st.markdown("Enter a news article below to check if it's *Fake* or *Real*.")
 
 text = st.text_area("Paste your news article here:")
